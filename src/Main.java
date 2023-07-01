@@ -9,8 +9,8 @@ public class Main
 
         String playAgain;
         do {
-            int die1 = rnd.nextInt(6);
-            int die2 = rnd.nextInt(6);
+            int die1 = rnd.nextInt(7)+1;
+            int die2 = rnd.nextInt(7)+1;
             int point = die1 + die2;
 
             System.out.println(" You rolled " + die1 + "," + die2 + " and the point is " + point);
